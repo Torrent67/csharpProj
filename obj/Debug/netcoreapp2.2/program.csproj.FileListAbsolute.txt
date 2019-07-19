@@ -2,3 +2,10 @@ C:\Users\Action\desktop\csharpproj\obj\Debug\netcoreapp2.2\program.csprojAssembl
 C:\Users\Action\desktop\csharpproj\obj\Debug\netcoreapp2.2\program.csproj.CoreCompileInputs.cache
 C:\Users\Action\desktop\csharpproj\obj\Debug\netcoreapp2.2\program.AssemblyInfoInputs.cache
 C:\Users\Action\desktop\csharpproj\obj\Debug\netcoreapp2.2\program.AssemblyInfo.cs
+C:\Users\Action\desktop\csharpproj\bin\Debug\netcoreapp2.2\program.deps.json
+C:\Users\Action\desktop\csharpproj\bin\Debug\netcoreapp2.2\program.runtimeconfig.json
+C:\Users\Action\desktop\csharpproj\bin\Debug\netcoreapp2.2\program.runtimeconfig.dev.json
+C:\Users\Action\desktop\csharpproj\bin\Debug\netcoreapp2.2\program.dll
+C:\Users\Action\desktop\csharpproj\bin\Debug\netcoreapp2.2\program.pdb
+C:\Users\Action\desktop\csharpproj\obj\Debug\netcoreapp2.2\program.dll
+C:\Users\Action\desktop\csharpproj\obj\Debug\netcoreapp2.2\program.pdb

@@ -1,21 +1,26 @@
 using System;
 using System.Collections.Generic;
-using Bread.Main;
+using Bakery.Main;
 
 namespace Bakery
 { 
    public class Program
   {
+    public static void Loafs()
+    {
+      string loafs = ++i;
+      int loafP = 8;
+    }
     public static void Main()
     {
-      Loafs french = new Loafs("French Bread", 5);
-      Loafs faguette = new Loafs("Baguette", 4);
-      Loafs rye = new Loafs("Rye Bread", 6);
-      Loafs wholeWheat = new Loafs("Whole Wheat", 4);
+      Bread loaf = new Bread("Bread Loaf", 5);
 
-      List<Loafs> Loafss = new List<Loafs>() { french, baguette, rye, wholeWheat };
+      Console.WriteLine("Welcome to Pierre's Bakery! Our bread loafs are 8 dollars each and our Pastries are 5 dollars each, please enter either Loafs or Pastries and then your desired ammount.");
+      string stringMaxPrice = Console.ReadLine();
+      int maxPrice = int.Parse(stringMaxPrice);
 
-   
+      }
+    }
   }
 
 }

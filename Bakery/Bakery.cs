@@ -1,37 +1,28 @@
-namespace Bakery.Bread
+using System;
+
+namespace Bakery
 {
   class Bread
   {
-    private string _Loafs;
-    private string _Sweets;
+    private string _Bread;
     private int _Prices;
 
-    public Bread(string loafs, string sweets, int prices)
+    public Bread(string bread, int prices)
     {
-      _Loafs = loafs;
-      _Sweets = sweets;
+      _Bread = bread;
       _Prices = prices;
     }
 
     public string GetLoafs()
     {
-      return _Loafs;
+      return _Bread;
     }
 
-    public string GetSweets()
-    {
-      return _Sweets;
-    }
-    
+
     public int GetPrices()
     {
       return _Prices;
     }
 
-    public bool Cost(int breadPrice)
-    {
-      return (_Prices < breadPrice);
-    }
-    
   }
 }

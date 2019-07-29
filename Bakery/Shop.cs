@@ -3,20 +3,14 @@ using System;
 namespace Bakery.Shop
  {
 
-  class Bread
+  class Bread 
   {
-    private int _Price;
-
+    public int Price {get; set;}
+  
     public Bread(int price)
     {
-      _Price = price;
+      Price = price;
     }
-
-    public int GetPrice()
-    {
-      return _Price;
-    }
-
 
     }
 
